@@ -1,0 +1,74 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 50%;
+  min-height: 30%;
+  width: 50%;
+  height: 30%;
+  margin-top: 30px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-likes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+  margin-top: 10px;
+  width: 100%;
+  min-height: 30%;
+  border-radius: 3px;
+}
+
+.card-desc-area {
+  width: 100%;
+  height: 100px;
+  border: 0px;
+  overflow: hidden;
+}
+
+.card-likes-action {
+  padding: 10px;
+  border: 0px;
+  border-radius: 3px;
+  background-color: blue;
+  color: #fff;
+}
+
+.card-likes-action-liked {
+  padding: 10px;
+  border: 0px;
+  border-radius: 3px;
+  background-color: rgb(121, 119, 247);
+  color: #fff;
+}
+
+.card-likes {
+  margin-top: 15px;
+}
+
+.card-likes-action :hover {
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+.card-likes-counter {
+  font-size: 20px;
+}

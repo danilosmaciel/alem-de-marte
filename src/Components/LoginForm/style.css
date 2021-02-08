@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+  background-color: cyan;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-login-user {
+  width: 80%;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: large;
+}
+
+.form-login-submit {
+  background-color: cornflowerblue;
+  color: cornsilk;
+  border: 0px;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
